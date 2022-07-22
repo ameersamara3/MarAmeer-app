@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "103147972495",
+    "project_id": "marameer-9e581",
+    "storage_bucket": "marameer-9e581.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103147972495:android:8f997c50b83c36487ccdfa",
+        "android_client_info": {
+          "package_name": "com.example.MarAmeer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103147972495-c5fpgjdlqdck8gsrv4aqdt4t9pfsm0ac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Bj2XhV2wMgE8f3VN1KQdxaeFSy_E5cI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103147972495-c5fpgjdlqdck8gsrv4aqdt4t9pfsm0ac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

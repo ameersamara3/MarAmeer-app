@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Home">
+
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="72dp"
+            android:fontFamily="@font/allerta"
+            android:includeFontPadding="false"
+            android:text="Welcome to MarAmeer Shop!"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:autoSizeTextType="none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="399dp"
+            android:layout_height="227dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/welcome"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcome" />
+
+        <Button
+            android:id="@+id/categoryBtn"
+            android:layout_width="186dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="@font/allerta"
+            android:text="Categories"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <Button
+            android:id="@+id/myorders"
+            android:layout_width="186dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="@font/allerta"
+            android:text="my orders"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@+id/categoryBtn"
+            app:layout_constraintHorizontal_bias="0.578"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="210dp"
+            android:layout_height="180dp"
+            android:layout_marginEnd="116dp"
+            android:src="@drawable/sellorbuy"
+            app:layout_constraintBottom_toTopOf="@+id/addNewItemBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/categoryBtn" />
+
+        <Button
+            android:id="@+id/addNewItemBtn"
+            android:layout_width="186dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="@color/pink"
+            android:text="Add new item"
+            android:fontFamily="@font/allerta"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@+id/ManageItemsBtn"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <Button
+            android:id="@+id/ManageItemsBtn"
+            android:layout_width="186dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/pink"
+            android:text="Manage Items"
+            android:fontFamily="@font/allerta"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
