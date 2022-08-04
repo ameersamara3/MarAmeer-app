@@ -1,5 +1,4 @@
 # MarAmeer-app
-An android app similar to ebay and second hand to trade baby products
-,it offers necessary modren marketing apps features
-, my first app
-I developed everything except design
+Academic Project
+A Ecommerce Android app for trading baby Products, 
+using: Android Studio, java, SQLite, Google Cloud
